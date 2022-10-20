@@ -26,3 +26,12 @@ const multipleThree2 = nums.myMap((num, i, arr) => {
 });
 
 console.log(multipleThree, multipleThree2);
+
+/**
+ * Output: [
+    3,
+    6,
+    9,
+    12
+]
+ */
