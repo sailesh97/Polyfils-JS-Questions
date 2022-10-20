@@ -17,9 +17,9 @@ Array.prototype.myReduce = function(cb, initialValue){
     return accumulator;
 }
 
-const nums = [1, 2, 3, 4];
+const nums2 = [1, 2, 3, 4];
 
-const sum = nums.reduce((acc, curr, i, arr) => {
+const sum = nums2.myReduce((acc, curr, i, arr) => {
     return acc + curr;
 }, 0);
 
